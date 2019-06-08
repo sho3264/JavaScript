@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<title>Test</title>
+</head>
+<body>
+	<canvas id="tictactoe" width="600" height="600"
+	style="border:1px solid"></canvas>
+
+	<script type="text/javascript"> 
+		var canvas = document.getElementById("tictactoe");
+		var ctx = canvas.getContext("2d");
+		ctx.moveTo(0,200);
+		ctx.lineTo(600,200);
+		ctx.stroke();
+		ctx.moveTo(0,400);
+		ctx.lineTo(600,400);
+		ctx.stroke();
+
+		ctx.moveTo(200,0);
+		ctx.lineTo(200,600);
+		ctx.stroke();
+		ctx.moveTo(400,0);
+		ctx.lineTo(400,600);
+		ctx.stroke();
+	</script>
+</body>
+</html>
