@@ -22,7 +22,7 @@ $('td').click(function(){
 		else
 		{
 			player=setNextPlayer(player);
-			displayNextPlater(turn,player);
+			displayNextPlayer(turn,player);
 		}
 	}
 	else
