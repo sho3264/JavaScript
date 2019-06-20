@@ -12,30 +12,7 @@ body {
   .turn {
     margin-bottom:10px;
   }
-  table {
-    border-collapse:collapse;
-    width:450px;
-    height:450px;
-    margin:0 auto;
-    td {
-      width:150px;
-      height:150px;
-      border:15px ;
-      cursor:pointer;
-      &:before {
-        font-size:1.5em;
-        line-height:1;
-      }
-      &.cross:before {
-        content:"x";
-        color:lightblue;
-      }
-      &.circle:before {
-        content:"o";
-        color:pink;
-      }
-    }
-  }
+  
 
   .reset {
     background:#555;
@@ -51,4 +28,29 @@ body {
   }
 }
 
+table {
+    border-collapse:collapse;
+    width:450px;
+    height:450px;
+    margin:0 auto;
+  }
+
+    td {
+      width:140px;
+      height:140px;
+      border:15px ;
+      cursor:pointer;
+      &:before {
+        font-size:1.5em;
+        line-height:1;
+      }
+      &.cross:before {
+        content:"x";
+        color:lightblue;
+      }
+      &.circle:before {
+        content:"o";
+        color:pink;
+      }
+    }
   
